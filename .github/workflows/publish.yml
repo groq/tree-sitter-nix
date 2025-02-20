@@ -48,4 +48,3 @@ jobs:
       PYPI_API_TOKEN: ${{secrets.PYPI_API_TOKEN}}
     with:
       generate: true
-      package-name: groq-tree-sitter-nix
